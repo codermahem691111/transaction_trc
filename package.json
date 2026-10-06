@@ -1,6 +1,13 @@
+
 {
+  "name": "expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "Expense Tracker API built with Express and MongoDB",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs"
+  },
   "dependencies": {
-    "body-parser": "^2.3.0",
     "cors": "^2.8.6",
     "dotenv": "^18.0.5",
     "express": "^5.2.1",
